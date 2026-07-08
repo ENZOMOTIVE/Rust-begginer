@@ -1,66 +1,58 @@
-# Rust Begginer
+# Rust Beginner
 
-## Project Tags
+> Rust Beginner is a Rust practice repository with beginner programs such as guessing games, structs, Fibonacci, and string utilities.
 
-- No requested category tag currently applies.
+## The Story
 
-## Overview
+Rust Beginner starts with a simple goal: make Rust practice tangible through small programs that can be read, compiled, and improved. The repository is intentionally compact today, so the README focuses on turning the current shape into a clear starting point for the next round of work.
 
-Rust Begginer contains beginner-friendly Rust programs and command-line exercises.
+## What It Includes
 
-## Features
+- Small Rust programs and exercises that make language concepts concrete.
 
-- Clear repository structure ready for implementation and future expansion
+## How It Is Put Together
 
-## Tech Stack
+| Path | Role |
+| --- | --- |
+| `Guess-game.rs` | Rust source or practice exercise |
+| `basic programs` | project file or folder |
+| `struct.rs` | Rust source or practice exercise |
 
-- Rust
-
-## Project Structure
-
-- `Guess-game.rs` - project file or directory
-- `basic programs` - project file or directory
-- `struct.rs` - project file or directory
-
-## Getting Started
-
-### Prerequisites
-
-- Git
-- Rust toolchain
-
-### Setup and Run
+## Local Development
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/Rust-begginer.git
 cd Rust-begginer
 ```
 
-Add implementation-specific install and run commands here as the project grows.
+For standalone Rust exercises, compile an individual file with `rustc path/to/file.rs` and run the generated binary.
 
-## Commands
+## Command Surface
 
-- No automated command set is declared yet; document commands here as tooling is added.
+The repository does not declare a shared command table yet. Use the local development notes above for the current workflow, then promote repeatable commands here as the project grows.
 
 ## Configuration
 
-- No required runtime configuration is documented yet. Add environment variables here when the project needs them.
+- No runtime secrets are required for the current files. Add an `.env.example` once local configuration becomes part of the project.
 
-## Testing and Quality
+## Quality Checks
 
-- No automated test workflow is declared yet; add tests and document the command here as the project matures.
+- Compile the changed Rust examples with `rustc` before committing.
 
-## Documentation Notes
+## Where To Take It Next
 
-- Keep this README aligned with the actual source layout and commands.
-- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
-- Update the project tags when the scope changes.
+- Consider grouping the Rust exercises into a Cargo project once they start sharing code.
+- Keep setup commands current whenever dependencies, scripts, or deployment targets change.
+- Record important product decisions here so the repository keeps its story as the code evolves.
 
-## Contributing
+## Project Metadata
 
-1. Create a focused branch for the change.
-2. Update code and documentation together.
-3. Run the relevant checks before opening a pull request.
+| Field | Details |
+| --- | --- |
+| Repository | `ENZOMOTIVE/Rust-begginer` |
+| Categories | `General` |
+| Primary stack | Rust |
+
 
 ## License
 
