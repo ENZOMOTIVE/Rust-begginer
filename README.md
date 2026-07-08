@@ -6,6 +6,16 @@
 
 Rust Beginner starts with a simple goal: make Rust practice tangible through small programs that can be read, compiled, and improved. The repository is intentionally compact today, so the README focuses on turning the current shape into a clear starting point for the next round of work.
 
+## Detailed Description
+
+Rust Beginner is a Rust practice repository with beginner programs such as guessing games, structs, Fibonacci, and string utilities. This README is meant to explain the project like a handoff note: what the idea is, why the repository exists, and how someone can start working with it without opening every file first.
+
+The value is in the learning path: each Rust file should make one concept easier to understand, compile, and improve.
+
+At the top level, the most important entry points are `Guess-game.rs`, `basic programs`, and `struct.rs`. Together they show the current boundary of the project and make it easier to separate product code, support files, documentation, and experiments.
+
+The visible stack currently points to `Rust`. Keep this list honest as the project changes so the README remains useful as a first technical map.
+
 ## What It Includes
 
 - Small Rust programs and exercises that make language concepts concrete.
